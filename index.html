@@ -12,6 +12,7 @@
             padding: 10px;
             height: 50px;
             width: 80%;
+            
         }
         #output{
             border: 1px solid black;
@@ -20,19 +21,47 @@
             height: 50px;
             width: 80%;
         }
+        header{
+            background-color:  #ffe135;
+            padding: 10px;
+            text-align: center;
+            font-family: Comic Sans MS;
+        }
+        footer{
+            background-color:  #ffe135;
+            padding: 10px;
+            text-align: center;
+            font-family: Comic Sans MS;
+        }
+        #btn-translate{
+            border: 1px solid black;
+            background-color: #ffe135;
+            margin: 10px;
+        }
+        div{
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to the Banana Translater</h1>
+
+    <header>
+        <h1>Banana Talk</h1>
+    </header>
     <!-- <h2>Enter your text below</h2> -->
     <!-- <input id="txt-input" type="textarea" placeholder="Enter your text here"/> -->
     <textarea id="txt-input" placeholder="Enter your text here"></textarea>
     
     <button id="btn-translate">Translate</button>
     
-    <div>You out put👇</div>
+    <div style="">Translated outcome 👇</div>
     
     <div id="output"></div>
+    <footer>
+        <div>
+            <p>Convert from English to Minion speak. This language is spoken by the minions in Despicable Me. The language is actually lots of languages. Yi kai yai yai bananna! Minion is a registered trademark of Universal Studios.</p>
+        </div>
+    </footer>
 
 
     <script src="app.js" text="javascript"></script>
